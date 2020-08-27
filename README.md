@@ -1,49 +1,47 @@
 # hw-01-code-refactor
 
----
+## Description
 
-# 01 HTML CSS Git: Code Refactor
+Refactored the html and css code for Horiseon to improve the website's accessibility standards. Horiseon is a company that specializes in search engine optimization, online reputation management, and social media marketing.
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
+The purpose of refactoring Horiseon's code was to meet the accessibility standards and improve the long term sustainability of their code base. In addition, the improved code will make it easier for screen readers to assist the blind and the handicap to render content via audio feedback.
 
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
+I refactored the webpage by replacing 'div' elements with semantically meaningful elements such as, "main, section, article, figure, and aside" to name a few. In addition, I eliminated redundant class attributes and consolidated selectors in both the html and css files. The refactoring exercise significantly improves the search engine rankings of the website and strengthens the websites accessability.
 
-> Always leave the code you are editing a little cleaner than you found it.
+Below are links to the page and the github repository for Horeiseon:
 
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+Github Pages URL: https://rajdeep24.github.io/hw-01-code-refactor/
 
-## User Story
+Github Repository: https://github.com/rajdeep24/hw-01-code-refactor
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
+## Table of Contents (Optional)
 
-## Acceptance Criteria
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+## Installation
 
-## Review
+No installation required. Simply view the application by clicking on the following link:
 
-You are required to submit the following for review:
+https://rajdeep24.github.io/hw-01-code-refactor/
 
-- The URL of the deployed application.
+## Usage
 
-- The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+Below is a screen shot of the application.
+![home-page](assets/images/Horiseon_landing_page.PNG)
+
+## Credits
+
+I would like to credit my peers, instructors, and teacher assistants from the GT bootcamp. They were intergual in providing the essential knowledge and guidance needed to accomplish this task.
+
+## License
+
+Feel free to leverage the code to learn more about refactoring webpages and applying semantic elements to improve usability and sustainability of your website(s).
 
 ---
 
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## Badges
+
+![badmath](https://img.shields.io/website?down_color=yellow&down_message=Ofline&up_color=Blue&up_message=Online&url=https%3A%2F%2Fimg.shields.io%2Fwebsite%2FPROTOCOL%2FURLREST.svg.)
